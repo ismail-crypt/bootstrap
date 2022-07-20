@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Rubik+Moonrocks&display=swap');html,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #66f78a;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img img{
+    position: absolute;
+    left: 50%;
+    top: 2em;
+    
+}
